@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 15px;
+    background-color:black;
+    color:white;
+}
+.max-width{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   margin-top: 10%;
+   background-color: rgb(10, 10, 9);
+   height:170vh;
+   
+  
+}
+.wrapper{
+   
+    height:50vh;
+    width:15rem;
+  color: red;
+    background-color: rgb(235, 210, 210);
+    margin:10px 10px;
+    border: 2px solid red;
+}
+.graphical {
+      height:22vh;
+width:12rem;
+
+}
+.wrapper h2{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.line{
+    height:3px;
+    width:14.9rem;
+    background-color:black;
+}
+.wrapper input[type=text]{
+    margin:2vh 10%;
+   width:12rem;
+    height: 8vh;
+    border:1px solid black;
+}
+
+
+
+.title{
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+   margin:2px 0px;
+    color:red;
+    
+}
+.title::before{
+    text-align: center;
+    content: "";
+    position: absolute;
+   bottom:-15px;
+   left:50%;
+    width: 180px;
+    height: 3px;
+    background: rgb(15, 13, 13);
+    transform: translateX(-50%);
+}
+.title::after{
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    font-size: 2rem;
+    color: red;
+    padding: 0 5px;
+    background: rgb(235, 210, 210);
+    transform: translateX(-50%);
+    content: "or";
+}
+
+
+.wrapper button{
+    width:12rem;
+    height: 8vh;
+    margin:2vh 10%;
+    font-size: 1.5rem;
+    color:white;
+    background-color: red;
+}
+.wrapper button:hover{
+    background-color:rgb(235, 210, 210) ;
+    color: black;
+}
+
+
+.display{
+    height:420px;
+    width:20rem;
+    background-color: rgb(204, 185, 185);
+    border:2px solid red;
+    color:black;
+    position: relative;
+ 
+}
+
+.display a{
+    position: absolute;
+    color:red;
+    font-size: 1.5rem;
+    text-decoration: none;
+   margin:2vh 3vw;
+}
+.display a:hover{
+    color:blue
+
+}
+.display a:active{
+    color:black;
+}
+.display .line{
+    width:20rem;
+}
+.factors{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding:20px ;
+}
+.graphical{
+    height:22vh;
+    width:12rem;
+    background-color: rgb(204, 185, 185);  
+    left:20%;
+    margin-top:0.5%;
+    margin: auto;  
+}
+.graphical img{
+    height:22vh;
+    width:12rem; 
+}
+.degree{  
+    margin:auto;
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+.status{
+   margin: auto;
+    margin-top: 1%;
+    font-size: 1.5rem; 
+}
+.city{
+     margin: auto;
+      margin-top: 2%;
+      font-size: 1.5rem;      
+}
+.midline{
+    height:3px;
+    width:107px;
+    
+    background-color:black;
+   transform: rotate(90deg);
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+
+.cloud-cover{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+
+    float:left;
+    font-size: 1.5rem;
+    
+}
+.humid{
+    position: absolute;
+   bottom:20px;
+   
+    font-size: 1.5rem;
+    right:20px;
+   
+}
+.info-txt{
+    color:rgb(230, 40, 103);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.invisible{
+    visibility: hidden;
+}

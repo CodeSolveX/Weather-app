@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/releases/v5.10.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center; margin-top: 5px;">Get all weather information</h1>
+    <div class="max-width">
+
+        <div class="wrapper">
+            <h2>Weather App</h2><br>
+            <div class="line"></div>
+            <input type="text" name="Entyer city name" class="loc" placeholder="Enter city name">
+            <h3 class="title"></h3><br><br>
+            <button>Get Location</button>
+            <p class="info-txt"></p>
+        </div>
+
+        <div class="display">
+            <a href="weather.html"><i class="fas fa-arrow-left"></i> Weather App</a><br><br><br>
+            <div class="line"></div>
+            <div class="factors">
+                <div class="graphical">
+                    <img src="" alt="Weather icon">
+                </div>
+                <div class="degree"><strong><i class="fas fa-thermometer-three-quarters"></i>
+                        <span class="numb">_</span> °C</strong></div>
+                <div class="status"></span></div>
+                <div class="city"><i class="fas fa-map-marker-alt"> </i><span class="location">_, _</span> </div>
+            </div>
+            <div class="line" style="margin-top: 5%;"></div>
+            <div class="brief">
+                <div class="cloud-cover">
+                    <i class="fas fa-cloud" id="cloud-cover"></i>
+                    <span class="numb-1">__</span>
+
+                </div>
+                <div class="midline"></div>
+                <div class="humid">
+                    <i class="fas fa-tint" id="humid"></i>
+                    <span class="numb-2">_</span>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="weather.js"></script>
+
+</html>
